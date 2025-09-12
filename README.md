@@ -1,5 +1,7 @@
 # Weila Account Manager
 
+Hosting for release `weila-account-manager`.
+
 ## Download
 
-[Releases](./releases)
+[Releases](https://github.com/kvoon3/weila-account-manager-release/releases)
