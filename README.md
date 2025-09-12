@@ -1,6 +1,6 @@
 # Weila Account Manager
 
-Hosting for release `weila-account-manager`.
+Repo for release `weila-account-manager`.
 
 ## Preview
 
