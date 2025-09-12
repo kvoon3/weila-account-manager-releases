@@ -17,7 +17,7 @@ jobs:
         with:
           repository: kvoon3/weila-account-manager
           fetch-depth: 0
-          token: ${{secrets.GH_CHECKOUT_REPO}}
+          token: ${{secrets.GH_REPO_RELEASE}}
 
       - name: Set node
         uses: actions/setup-node@v4
@@ -34,6 +34,6 @@ jobs:
       # - name: Build package
       #   run: nr build
       
-      - run: npx changelogithub  -t ${{ secrets.GH_CHECKOUT_REPO }} --release-github kvoon3/weila-account-manager-release # or changelogithub@0.12 to ensure a stable result
+      - run: npx changelogithub  -t ${{ secrets.GH_REPO_RELEASE }} --release-github kvoon3/weila-account-manager-release # or changelogithub@0.12 to ensure a stable result
         env:
-          GITHUB_TOKEN: ${{secrets.GH_CHECKOUT_REPO}}
+          GITHUB_TOKEN: ${{secrets.GH_REPO_RELEASE}}
