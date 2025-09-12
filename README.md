@@ -1,1 +1,5 @@
-# weila-account-manager-release
+# Weila Account Manager
+
+## Download
+
+[Releases](./releases)
