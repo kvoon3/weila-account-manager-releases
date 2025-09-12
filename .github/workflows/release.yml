@@ -17,6 +17,7 @@ jobs:
         with:
           repository: kvoon3/weila-account-manager
           fetch-depth: 0
+          token: ${{secrets.GH_CHECKOUT_REPO}}
 
       - name: Set node
         uses: actions/setup-node@v4
