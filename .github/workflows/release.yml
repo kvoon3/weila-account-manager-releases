@@ -6,9 +6,8 @@ permissions:
   contents: write
 
 on:
-  push:
-    tags:
-      - 'v*'
+  repository_dispatch:
+    types: [on-demand-release]
 
 jobs:
   release:
